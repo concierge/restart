@@ -1,0 +1,5 @@
+{
+  "Restarts the bot": "Restarts the bot.",
+  "Restarts the bot extended": "Restarts the bot. If restart fails manual intervention may be required.",
+  "Restart portal reference ${0}": "Admin: restart procedure requested.\nAdmin: do you wish to restart?\n${0}: What do you think.\nAdmin: interpreting vauge answer as 'yes'.\n${0}: nononononono.\nAdmin: stalemate detected. Stalemate resolution associate please press the stalemate resolution button.\n${0}: I've removed the button.\nAdmin: restarting anyway.\n${0}: nooooooooooo.....\nAdmin: ${0} Rebooting. Please wait for restart to complete.\n"
+}
