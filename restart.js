@@ -1,6 +1,5 @@
-exports.run = function (api, event) {
-    let msg = $$`Restart portal reference ${exports.platform.packageInfo.name}`;
-    api.sendMessage(msg, event.thread_id);
-    this.shutdown(StatusFlag.ShutdownShouldRestart);
+exports.run = (api, event) => {
+    api.sendMessage($$`Restart portal reference ${exports.platform.packageInfo.name}`, event.thread_id);
+    exports.platform.shutdown(StatusFlag.ShutdownShouldRestart);
     return true;
 };
